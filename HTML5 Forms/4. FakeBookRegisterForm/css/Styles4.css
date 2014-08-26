@@ -1,0 +1,146 @@
+body
+{
+	font-family:Calibri;
+	color:white;
+}
+span
+{		
+	font-weight:bold;
+	font-family:Arial;
+}
+#divContainer
+{
+	position:absolute;
+	background:url("../images/Fakebook.jpg");
+	text-align:center;
+	width:595px;
+	height:475px;
+}
+#divTitle
+{
+	height:70px;
+	position:relative;
+}
+#divRegistration
+{	
+	margin-top:105px;
+}
+#divLeft
+{
+	margin:10px;
+	font-size:14px;
+	width:227px;
+	height:305px;
+	float:left;
+}
+#divBithday,#divRadioBtn
+{
+	height:30px;
+	width:200px;
+	margin-bottom:6px;
+}
+#divRight
+{
+	margin:10px;
+	font-size:14px;
+	width:321px;
+	height:305px;
+	float:right;
+}
+#divAdditions1
+{
+	height:50px;
+	width:294px;
+	margin-bottom:6px;
+}
+#divAdditions2
+{
+	height:64px;
+	width:294px;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+#divLeftBtn
+{
+
+	height:45px;
+	width:200px;
+	margin:12px;
+}
+#divRightBtn
+{
+	height:45px;
+	width:321px;
+	margin-top:12px;
+}
+#divLeftFrame
+{
+	text-align:left;
+	height:213px;
+	width:200px;
+}
+#divRightFrame
+{
+	text-align:left;
+	height:213px;
+	width:294px;
+}
+#textField1,#datetime
+{
+	font-size:12px;
+	margin-top:6px;
+	margin-bottom:6px;
+	text-align:left;
+	width:90px;
+	height:20px;
+	border-radius:3px;
+}
+#textField2
+{
+	font-size:12px;
+	margin-top:6px;
+	margin-bottom:6px;
+	width:45px;
+	height:20px;
+	border-radius:3px;
+}
+#datetime
+{	
+	width:190px;
+}
+#fieldset
+{
+	border-radius:5px;
+	text-align:center;
+	font-weight:bold;
+}
+#textArea
+{
+	margin-top:5px;
+	border-radius:5px;
+	font-size:12px;
+	width:279px;
+	height:50px;
+	vertical-align:top;
+}
+#leftBtn
+{
+	width:204px;
+	height:34px;
+	color:rgb(59,89,151);
+	font-weight:bold;
+	border-radius:5px;
+}
+#rightBtn
+{
+	width:302px;
+	height:34px;
+	border-radius:5px;
+	color:rgb(59,89,151);
+	font-size:16px;
+	font-weight:bold;
+}
+#registration
+{
+	font-size:22px;
+}

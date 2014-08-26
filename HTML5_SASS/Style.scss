@@ -1,0 +1,185 @@
+$purple:rgb(66,21,66);
+$blue:rgb(21,21,182);
+$green:rgb(17,63,17);
+$yellow:rgb(246,246,25);
+$orange:rgb(237,153,16);
+$red:rgb(209,17,17);
+$white:rgb(255,255,255);
+
+@mixin toBottom-gradient($startColor,$endColor)
+{
+	background:linear-gradient(to bottom,$startColor,$endColor);
+}
+
+@mixin toRight-gradient($startColor,$endColor)
+{
+	background:linear-gradient(to right,$startColor,$endColor);
+}
+
+@mixin diagonal-gradient($startColor,$endColor)
+{
+	background:linear-gradient(to bottom right,$startColor,$endColor);
+}
+
+@mixin radial-gradient($startColor,$endColor)
+{
+	background:radial-gradient($startColor,$endColor);
+}
+body,html
+{
+	height:cover;
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:Calibri;
+	color:grey;
+	background:linear-gradient(to bottom,rgb(139,139,139),rgb(255,255,255));
+}
+.innerContainer
+{
+	border:1px solid blue;
+	position:relative;
+	display:inline-block;
+	margin:0 2% 2% 2%;
+}
+.purple,.blue,.green,.red,.orange,.yellow
+{
+	width:167px;
+	height:177px;
+	border:1px solid blue;
+	border-radius:15px;
+	float:left;
+}
+.purple.linear-bottom{ @include toBottom-gradient($purple,$white);}
+.blue.linear-bottom{ @include toBottom-gradient($blue,$white);}
+.green.linear-bottom{ @include toBottom-gradient($green,$white);}
+.red.linear-bottom{ @include toBottom-gradient($red,$white);}
+.orange.linear-bottom{ @include toBottom-gradient($orange,$white);}
+.yellow.linear-bottom{ @include toBottom-gradient($yellow,$white);}
+
+.purple.linear-right{ @include toRight-gradient($purple,$white);}
+.blue.linear-right{ @include toRight-gradient($blue,$white);}
+.green.linear-right{ @include toRight-gradient($green,$white);}
+.red.linear-right{ @include toRight-gradient($red,$white);}
+.orange.linear-right{ @include toRight-gradient($orange,$white);}
+.yellow.linear-right{ @include toRight-gradient($yellow,$white);}
+
+.purple.diagonal{ @include diagonal-gradient($purple,$white);}
+.blue.diagonal{ @include diagonal-gradient($blue,$white);}
+.green.diagonal{ @include diagonal-gradient($green,$white);}
+.red.diagonal{ @include diagonal-gradient($red,$white);}
+.orange.diagonal{ @include diagonal-gradient($orange,$white);}
+.yellow.diagonal{ @include diagonal-gradient($yellow,$white);}
+
+.purple.radial{ @include radial-gradient($purple,$white);}
+.blue.radial{ @include radial-gradient($blue,$white);}
+.green.radial{ @include radial-gradient($green,$white);}
+.red.radial{ @include radial-gradient($red,$white);}
+.orange.radial{ @include radial-gradient($orange,$white);}
+.yellow.radial{ @include radial-gradient($yellow,$white);}
+
+#wrapper
+{
+	position:relative;	
+	padding:0;
+	margin:0 6%;
+	border:2px solid grey;
+	background:white;
+	width:88%
+}
+header
+{
+	width:95%;
+	height:14%;
+	border:2px solid grey;
+	margin:2% auto;
+	text-align:center;	
+}
+#linear,#radial,#vertical,#diagonal,#horizontal
+{
+	border:none;
+}
+header h1
+{
+	font-size:2.5em;
+}
+	nav 
+	{
+		ul
+		{
+			list-style-type:none;
+			position:relative;
+		}
+		 li
+		{
+			border:2px solid grey;
+			display:inline-table;
+			width:9%;
+			height:6%;
+			padding:5px;
+			
+			text-align:center;	
+			margin:0 3% 2% 3%;
+		}
+		a
+		{
+			text-decoration:none;
+			color:grey;
+		}
+	}
+nav ul li:hover
+{
+	background:linear-gradient(to bottom,rgb(128,128,128),white);
+}
+nav ul li:hover > a
+{
+	color:white;
+}
+section
+{
+	width:95%;
+	height:103%;
+	border:2px solid grey;
+	margin:2% auto;
+	text-align:center;
+}
+article
+{
+	width:95%;
+	height:21%;
+	border:1px solid grey;
+	margin:2% auto;
+	padding-top:2%;
+	text-align:center;
+}
+#linear h1,#radial h1,footer h3
+{
+	text-decoration:underline;
+	font-size:1.5em;
+}
+header h2
+{
+	font-size:1.2em;
+}
+	footer
+	{
+		width:95%;
+		height:14%;
+		border:2px solid grey;
+		margin:2% auto;
+		text-align:center;	
+	
+		ul
+		{
+			list-style:none;
+			margin:2% auto;
+			padding:0;
+		}
+		a
+		{
+			text-decoration:none;
+			color:grey;
+		}
+	}

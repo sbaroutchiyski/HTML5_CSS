@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BGJUG WebPage2</title>
+	<style>
+	body
+	{
+		font-family:Calibri,sans-serif;
+	}
+	ul
+	{
+		margin:0px;
+		padding-left:0px;
+		float:left;
+		list-style:none;
+	}
+	li
+	{	
+		color:grey;
+		margin-left:20px;
+		margin-top:20px;
+		float:left;
+	}
+	article
+	{
+		padding-left:20px;
+	}
+	span,a
+	{
+		color:gray;		
+	}
+	#blueText
+	{
+		font-family:Arial,sans-serif;
+		color:rgb(50,162,201);
+	}
+	#divContainer
+	{
+		width:auto;
+		height:auto;
+		display:inline-table;
+	}
+	#divHeader
+	{
+		display:inline-table;
+		width:100%;
+		height:100px;
+	}
+	#divButtons
+	{
+		float:left;
+	}
+	#divSearch
+	{
+		margin-top:20px;
+		margin-right:20px;
+		float:right;
+	}
+	#divLeft
+	{
+		padding:30px 20px 0 20px;
+		width:20%;
+		float:left;
+	}
+	#divMiddle
+	{
+		padding:0px 20px 0 20px;
+		width:60%;
+		float:left;
+	}
+	#divRight
+	{
+		width:10%;
+		float:right;
+		padding:0 20px 0 20px;
+	}
+	#divFooter
+	{
+		color:rgb(255,255,255);
+		background-color:rgb(0,0,0);
+		margin-top:10%;
+		width:100%;
+		height:auto;
+		display:inline-table;
+	}
+	#divFooterElements
+	{
+		float:left;
+		height:auto;
+		width:225px;
+		margin:0 20px 0 20px;
+		padding:10px 0 10px 0;
+	}
+	#pLeft
+	{
+		font-size:16px;
+		color:rgb(50,162,201);
+		padding:0 30px 0 0px;
+		margin:0px;
+
+	}
+	#pRight
+	{
+		margin-top:30px;
+		padding:0px;
+		color:gray;	
+		line-height:5%;
+	}
+	#pFooter
+	{
+		
+		font-size:16px;
+		margin:0px;
+		padding:0px;
+	}
+	#pFooterText,#hMiddle
+	{
+		font-size:20px;
+		margin:0px;
+		padding:0px;		
+	}
+	#hLeft
+	{
+		font-size:20px;
+		text-indent:40px;
+	}
+	#hFooter
+	{
+		font-size:18px;
+		margin:0px;
+		padding:0px;
+	}
+	</style>
+</head>
+	<body>
+	<form>
+	<div id="divContainer">
+		<header id="divHeader">
+		<h1 id="hLeft">BGJUG-Bulgarian Java User Group</h1>
+		<nav>
+			<div id="divButtons">
+				<ul>
+					<li>ABOUT</li>
+					<li>EVENTS</li>
+					<li>CONTACTS</li>
+				</ul>
+			</div>
+			<div id="divSearch">
+				<input type="search" placeholder="Search"/>
+			</div>
+		</nav>		
+		</header>
+		<aside id="divLeft">
+			<hr>
+			<p id="pLeft">An Architecture for E-voting</p>
+			<p id="pLeft">Integration Tests for External Services</p>
+			<p id="pLeft">Algorithmic Music Influenced by Tweets</p>
+			<p id="pLeft">The Low Quality of Scientific Code</p>
+			<p id="pLeft">Development "Methodologies"</p>
+		</aside>
+		<main id="divMiddle">
+			<article>
+				<h1 id="hMiddle">An Architecture for E-Voting</h1>
+				<span>by <a href="#">BOZHO</a> on May 27,2014 &middot <a href="#">LEAVE A COMMENT</a></span><br>
+				<p>E-voting is a hot topic in my country, and has been discussed a lot everywhere.
+				Since we are already the internet and touch-screen technologies in our everyday lives, why not apply that to voting?
+				And not for the sake of technologies itself, but in order to prevent technical mistakes and election fraud, and make[...]</p>
+				<p id="blueText">Continue Reading &#8594 </p>
+			</article>
+			<article>
+				<h1 id="hMiddle">The Optional Type API</h1>
+				<span>by <a href="#">BOZHO</a> on March 19,2014 &middot <a href="#">LEAVE A COMMENT</a></span>
+				<p>Java 8 introduces the Optional class. In a nutshell, instead of returning null, and then checking for null, you 
+				return an Optional instance, which can either have or not have a value set.That way you don't fail with NullPointerException
+				I won't discuss whether the Optional type will eliminate NPEs completely (it won't).Instead I'll [...]</p>
+				<p id="blueText">Continue Reading &#8594 </p>
+			</article>
+			<hr>
+			<p id="blueText"> &nbsp &nbsp  &#8592 Previous Entries</p>
+		</main>
+		<aside id="divRight">
+			<p id="pRight">LANGUAGE</p>
+			<hr>
+			<select>
+				<option selected="selected">Bulgarian</option>
+				<option>English</option>
+				<option>German</option>
+			</select>
+			<br>
+			<p id="pRight">BLOCKROLL</p>
+			<hr>
+		</aside>
+		<footer id="divFooter">
+			<div id="divFooterElements">
+				<p id="pFooterText">BGJUG-Java</p>
+				<p id="pFooterText">Bulgarian User Group</p>
+			</div>
+			<div id="divFooterElements">
+				<h1 id="hFooter">PAGES</h1>
+				<p id="pFooter"> About</p>
+				<p id="pFooter"> Evens</p>
+				<p id="pFooter"> Contacts</p>
+			</div>
+			<div id="divFooterElements">
+				<h1 id="hFooter">THE LATEST</h1>
+				<p id="pFooter"><strong> An Architecture for E-Voting</strong></p>
+				<p id="pFooter"> E-voting is a hot topic in my country,and has been dicussed [...]</p>
+			</div>
+			<div id="divFooterElements">
+				<h1 id="hFooter">MORE</h1>
+				<p id="pFooter">Thanks dropping by! Feel free to join the discussion by leaving comments, and
+				stay updated by subscribing to the <strong> RSS feed</strong>.</p>
+			</div>
+			<div id="divFooterElements">
+				<p id="pFooter">&copy 2011 BGJUG-Java Bulgarian User Group</p>			
+			</div>
+		</footer>
+	</div>	
+	</form>
+	</body>
+</html>

@@ -1,0 +1,153 @@
+
+	body
+	{
+		font-family:Calibri,sans-serif;
+	}
+	h1
+	{
+		margin-top:10px;
+		font-size:2.6em;
+		font-weight:normal;
+		text-shadow:10px 10px 9px grey;
+	}
+	span
+	{
+		font-size:1.2em;
+	}
+	#container
+	{			
+		border-left:4px dashed red;
+		border-top:4px dotted yellow;
+		border-right:11px solid green;
+		border-bottom:6px double blue;
+		box-shadow:15px 15px 5px grey;
+		text-align:center;
+		width:500px;
+		height:197px			
+	}
+	#textArea
+	{
+		position:absolute;
+		display:block;
+		border-radius:50px 50px 50px 50px;
+		border:2px solid blue;
+		top:88px;
+		left:36px;
+		width:445px;
+		height:92px
+		padding:0px;		
+	}
+	#green
+	{		
+		border-radius:50px 50px 50px 50px;
+		border:2px solid green;
+		width:441px;
+		height:91px
+	}
+	#yellow
+	{		
+		border-radius:50px 50px 50px 50px;
+		border:2px solid yellow;
+		width:437px;
+		height:87px
+	}
+	#red
+	{	
+		border-radius:50px 50px 50px 50px;
+		border:2px solid red;
+		display:inline-block;
+		width:433px;
+		height:83px
+	}
+	#buttons
+	{
+		border:2px outset rgb(255,160,0);
+		background:rgb(216,146,26);
+		display:inline-block;
+		position:relative;
+		width:154px;
+		height:22px;
+		float:left;
+		left:50px;	
+		text-align:center;
+		font-weight:bold;			
+		margin:18px 0 5px 6px;							
+	}
+	#circleOut
+	{
+		position:absolute;
+		padding:2px;
+		margin:0px;
+		width:22px;
+		height:22px;
+		top:118px;
+		left:398px;
+		z-index:-1;				
+		border-radius:50px 50px 50px 50px;
+		background:rgba(128,128,128,0.7);			
+	}
+	#circleIn
+	{ 
+		margin:2px;
+		padding:0px;
+		width:14px;
+		height:14px;
+		border-radius:50px 50px 50px 50px;
+		border:2px dashed white;
+		background:rgba(128,128,128,0.35);
+	}
+	#biggerCircleOut
+	{
+		position:absolute;
+		padding:1px;
+		margin:0px;
+		width:29px;
+		height:29px;
+		top:87px;
+		left:432px;
+		z-index:1;				
+		border-radius:50px 50px 50px 50px;
+		background:rgba(128,128,128,0.7);
+		
+	}
+	#biggerCircleIn
+	{ 
+		margin:2px;
+		padding:0px;
+		width:21px;
+		height:21px;
+		border-radius:50px 50px 50px 50px;
+		border:2px dashed white;
+		background:rgba(128,128,128,0.35);
+	}
+	#coolHolder
+	{
+		position:absolute;
+		display:block;
+		width:107px;
+		height:64px;
+		left:483px;
+		top:40px;
+		margin:0px;
+		padding:1px;			
+		border-radius:50px 50px 50px 50px;
+		background:rgba(128,128,128,0.7);
+	}
+	#cool
+	{
+		margin:4px;
+		padding:0px;
+		width:95px;
+		height:52px;
+		border-radius:50px 50px 50px 50px;
+		border:2px dashed white;
+		background:rgba(128,128,128,0.35);
+		font-weight:bold;
+		font-size:1.2em;
+		color:white;
+	}
+	#textNote
+	{
+		position:relative;
+		top:6px;
+	}

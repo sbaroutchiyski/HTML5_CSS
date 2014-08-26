@@ -1,0 +1,74 @@
+
+body
+{
+	font-family:Calibri;
+}
+p,figcaption
+{
+	padding:0;
+	margin:0;
+	font-size:18px;
+}
+form,#container
+{		
+	height:350px;
+	width:866px;
+}
+section
+{
+	height:285px;
+	float:left;	
+}
+#container
+{
+	display:block;
+	padding:20px;
+	background:rgb(255,192,203);
+	border-radius:10px;
+}
+#leftSection
+{
+	width:220px;
+	text-align:left;
+}
+#middleSection
+{
+	width:300px;
+}
+#rightSection
+{
+	padding-left:18px;				
+	width:320px;
+}
+#divAudio1
+{
+	color:red;
+	padding-top:50px;
+	height:80px;
+	background-color:black;
+}
+#divAudio2
+{
+	margin-top:5px;
+}
+#figure
+{
+	text-align:left;
+	margin:0px;
+	padding:0px;
+}
+#meter
+{
+	width:200px;
+	height:25px;
+}
+#audio
+{
+	height:30px;
+	width:300px;
+}
+#embedAudio
+{
+	height:80px;
+	width:300px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flight order</title>
+		<link rel="stylesheet" type="text/css" href="./css/Styles2.css"/>
+	</head>
+	<body>
+	<form type="post">
+		<div id="divContainer">
+			<div id="divHeader">
+				<h1>FLIGHT ORDER<h1>
+			</div>
+				<div id="divLeft">
+					<div id="divSelects">
+						<label id="labelInfo" for="select">From</label>
+						<select id="select">
+							<option selected="selected">Enter a city</option>
+							<option>Sofia</option>
+							<option>Plovdiv</option>
+							<option>Varna</option>
+							<option>Burgas</option>
+						</select>
+					</div>
+					<div id="divSelects">
+						<label id="labelInfo" for="dateDeparture">Departure Date</label>
+						<input id="select" type="date" name="dateDeparture">
+					</div>
+					<div id="divSelects">
+						<label id="labelInfo" for="dateReturn">Return Date</label>
+						<input id="select" type="date" name="dateReturn">
+					</div>
+					<div id="divSelect">
+						<div id="divRange">
+							<label id="labelInfo" for="range1">12+</label>
+							<input id="range" type="number" name="range1" min="0" max="12"/>
+						</div>
+						<div id="divRange">					
+							<label id="labelInfo" for="range2">2-12</label>
+							<input id="range" type="number" name="range2" min="0" max="12"/>
+						</div>
+						<div id="divRange">
+							<label id="labelInfo" for="range3">0-2</label>
+							<input id="range" type="number" name="range3" min="0" max="12"/>
+						</div>
+					</div>
+				</div>
+				<div id="divRight">
+					<div id="divSelects">
+						<label id="labelInfo" for="select">To</label>
+						<select id="select">
+							<option selected="selected">Enter a city</option>
+							<option>Sofia</option>
+							<option>Plovdiv</option>
+							<option>Varna</option>
+							<option>Burgas</option>
+						</select>
+					</div>
+					<div id="divCheckBox">
+						<input type="checkbox" name="preferedDirect" value="prefer"/>
+						<label id="labelInfo" for="preferedDirect">Prefer direct</label>
+					</div>
+					<div id="divSelect">
+						<div id="divPrefered">
+							<label id="labelInfo" for="timeRange1">Time Interval</label><br>
+							<input id="timeRange" type="time" name="timeRange1"/>
+							<input id="timeRange" type="time" name="timeRange2"/>						
+						</div>
+					</div>
+					<div id="divSelect">
+						<div id="divPrefered">
+							<label id="labelInfo" for="timeRange3">Time Interval</label><br>
+							<input id="timeRange" type="time" name="timeRange3"/>
+							<input id="timeRange" type="time" name="timeRange4"/>						
+						</div>	
+					</div>	
+						<div id="divSelect">
+							<div id="divPrefered">
+								<label id="labelInfo" for="classChoice">From</label>
+								<select id="select">
+									<option selected="selected">Economy</option>
+									<option>Premium Economy</option>
+									<option>Business</option>
+									<option>First</option>
+								</select>
+							</div>
+						</div>
+					<div id="divSelect">
+						<input id="searchBtn" type="submit" name="search" value="Search"/>
+					</div>
+				</div>
+		</div>
+	</form>
+	</body>
+</html>

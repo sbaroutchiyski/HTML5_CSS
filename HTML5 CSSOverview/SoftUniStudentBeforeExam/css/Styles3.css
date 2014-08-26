@@ -1,0 +1,81 @@
+
+div
+{
+	margin:0;
+	padding:0;
+	position:absolute;
+	border-radius:50%;
+	border:3px solid black;
+}
+#container
+{
+	border-radius:none;
+	border:none;
+	width:500px;
+	height:500px;
+}
+#head
+{
+	width:500px;
+	height:500px;
+	background:yellow;
+}
+#leftEye,#rightEye
+{
+	background:white;
+	width:100px;
+	height:100px;
+}
+#leftIris,#rightIris
+{
+	background:black;
+	width:30px;
+	height:30px;
+}
+#nose
+{		
+	background:red;
+	width:75px;
+	height:75px;
+	left:213px;
+	top:208px;
+}
+#mouth
+{ 			
+	width:250px;
+	height:100px;
+	top:312px;
+	left:124px;
+	background:white;
+	border-radius:50px 50px 50px 50px;
+}
+#leftTooth,#rightTooth
+{		
+	left:68px;
+	top:-2px;
+	position:relative;
+	float:left;
+	width:50px;
+	height:50px;
+	border-radius:0 0 10px 10px;
+}
+#leftEye
+{		
+	top:91px;
+	left:103px;
+}
+#rightEye
+{		
+	top:91px;
+	left:287px;
+}
+#leftIris
+{
+	top:50px;
+	left:50px;
+}
+#rightIris
+{		
+	top:0px;
+	left:0px;
+}

@@ -1,0 +1,18 @@
+table,th,td
+{
+	border:1px solid black;
+	font-size:18px;
+	font-family:"Calibri";
+}
+th.a
+{
+	font-size:32px;
+}
+div
+{
+	text-align:left;
+}
+td.a
+{
+	text-align:right
+}

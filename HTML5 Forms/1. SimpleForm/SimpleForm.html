@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple form</title>
+		<link rel="stylesheet" type="text/css" href="./css/Styles1.css"/>
+	</head>
+	<body>	
+		<form id="form1" method="post">
+			<h1>Enter the System</h1>
+			<p>It is necessary to login in Your account in order to sign in for a course</p>
+				<div id="container">
+					<div id="register">
+						<label id="headR"  for="header">ARE YOU NEW? <span id="spanR">REGISTER</span></label>	
+						<input id="textLabel" type="text" name="userName1" placeholder="User name" required="required"/>
+						<input id="textLabel" type="text" name="email" placeholder="E-Mail" required="required"/>	
+						<input id="textLabel" type="password" name="password1" placeholder="Password" required="required"/>	
+						<input id="textLabel" type="password" name="confirmPass" placeholder="Confirm password" required="required"/>		
+						<input id="registerBtn" type="submit" name="register" value="Register"/>
+					</div>
+					<div id="login">
+						<label id="headL" for="secondHeader">ALREADY STUDENT? LOGIN</label>
+						<input id="textLabel" "loginText" type="textLogin" name="userName2" placeholder="User name" required="required"/>
+						<input id="textLabel" "loginText" type="password" name="password2" placeholder="Password" required="required"/>
+						<input id="checkBox" "checkBtn" type="checkbox" name="rememberMe" value="Remember"/><span id="remember">Remeber me?</span>
+						<input id="loginBtn" type="submit" name="login" value="Login">
+						<div id="hLinkPosition"><a id="hLink" href="#">Forgot Password</a></div>
+					</div>
+				</div>
+		</form>
+	</body>
+</html>

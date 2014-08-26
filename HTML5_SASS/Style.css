@@ -1,0 +1,258 @@
+/* line 29, Style.scss */
+body, html {
+  height: cover;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 35, Style.scss */
+body {
+  font-family: Calibri;
+  color: grey;
+  background: linear-gradient(to bottom, #8b8b8b, #ffffff);
+}
+
+/* line 41, Style.scss */
+.innerContainer {
+  position: relative;
+  display: inline-block;
+  margin: 0 2% 2% 2%;
+}
+
+/* line 48, Style.scss */
+.purple, .blue, .green, .red, .orange, .yellow {
+  width: 167px;
+  height: 177px;
+  border-radius: 15px;
+  float: left;
+}
+
+/* line 55, Style.scss */
+.purple.linear-bottom {
+  background: linear-gradient(to bottom, #421542, #ffffff);
+}
+
+/* line 56, Style.scss */
+.blue.linear-bottom {
+  background: linear-gradient(to bottom, #1515b6, #ffffff);
+}
+
+/* line 57, Style.scss */
+.green.linear-bottom {
+  background: linear-gradient(to bottom, #113f11, #ffffff);
+}
+
+/* line 58, Style.scss */
+.red.linear-bottom {
+  background: linear-gradient(to bottom, #d11111, #ffffff);
+}
+
+/* line 59, Style.scss */
+.orange.linear-bottom {
+  background: linear-gradient(to bottom, #ed9910, #ffffff);
+}
+
+/* line 60, Style.scss */
+.yellow.linear-bottom {
+  background: linear-gradient(to bottom, #f6f619, #ffffff);
+}
+
+/* line 62, Style.scss */
+.purple.linear-right {
+  background: linear-gradient(to right, #421542, #ffffff);
+}
+
+/* line 63, Style.scss */
+.blue.linear-right {
+  background: linear-gradient(to right, #1515b6, #ffffff);
+}
+
+/* line 64, Style.scss */
+.green.linear-right {
+  background: linear-gradient(to right, #113f11, #ffffff);
+}
+
+/* line 65, Style.scss */
+.red.linear-right {
+  background: linear-gradient(to right, #d11111, #ffffff);
+}
+
+/* line 66, Style.scss */
+.orange.linear-right {
+  background: linear-gradient(to right, #ed9910, #ffffff);
+}
+
+/* line 67, Style.scss */
+.yellow.linear-right {
+  background: linear-gradient(to right, #f6f619, #ffffff);
+}
+
+/* line 69, Style.scss */
+.purple.diagonal {
+  background: linear-gradient(to bottom right, #421542, #ffffff);
+}
+
+/* line 70, Style.scss */
+.blue.diagonal {
+  background: linear-gradient(to bottom right, #1515b6, #ffffff);
+}
+
+/* line 71, Style.scss */
+.green.diagonal {
+  background: linear-gradient(to bottom right, #113f11, #ffffff);
+}
+
+/* line 72, Style.scss */
+.red.diagonal {
+  background: linear-gradient(to bottom right, #d11111, #ffffff);
+}
+
+/* line 73, Style.scss */
+.orange.diagonal {
+  background: linear-gradient(to bottom right, #ed9910, #ffffff);
+}
+
+/* line 74, Style.scss */
+.yellow.diagonal {
+  background: linear-gradient(to bottom right, #f6f619, #ffffff);
+}
+
+/* line 76, Style.scss */
+.purple.radial {
+  background: radial-gradient(#421542, #ffffff);
+}
+
+/* line 77, Style.scss */
+.blue.radial {
+  background: radial-gradient(#1515b6, #ffffff);
+}
+
+/* line 78, Style.scss */
+.green.radial {
+  background: radial-gradient(#113f11, #ffffff);
+}
+
+/* line 79, Style.scss */
+.red.radial {
+  background: radial-gradient(#d11111, #ffffff);
+}
+
+/* line 80, Style.scss */
+.orange.radial {
+  background: radial-gradient(#ed9910, #ffffff);
+}
+
+/* line 81, Style.scss */
+.yellow.radial {
+  background: radial-gradient(#f6f619, #ffffff);
+}
+
+/* line 84, Style.scss */
+#wrapper {
+  position: relative;
+  padding: 0;
+  margin: 0 6%;
+  border: 2px solid grey;
+  background: white;
+  width: 88%;
+}
+
+/* line 93, Style.scss */
+header {
+  width: 95%;
+  height: 14%;
+  border: 2px solid grey;
+  margin: 2% auto;
+  text-align: center;
+}
+
+/* line 101, Style.scss */
+#linear, #radial, #vertical, #diagonal, #horizontal {
+  border: none;
+}
+
+/* line 105, Style.scss */
+header h1 {
+  font-size: 2.5em;
+}
+
+/* line 111, Style.scss */
+nav ul {
+  list-style-type: none;
+  position: relative;
+}
+/* line 116, Style.scss */
+nav li {
+  border: 2px solid grey;
+  display: inline-table;
+  width: 9%;
+  height: 6%;
+  padding: 5px;
+  text-align: center;
+  margin: 0 3% 2% 3%;
+}
+/* line 127, Style.scss */
+nav a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* line 133, Style.scss */
+nav ul li:hover {
+  background: linear-gradient(to bottom, #808080, #ffffff);
+}
+
+/* line 137, Style.scss */
+nav ul li:hover > a {
+  color: white;
+}
+
+/* line 141, Style.scss */
+section {
+  width: 95%;
+  height: 103%;
+  border: 2px solid grey;
+  margin: 2% auto;
+  text-align: center;
+}
+
+/* line 149, Style.scss */
+article {
+  width: 95%;
+  height: 21%;
+  border: 1px solid grey;
+  margin: 2% auto;
+  padding-top: 2%;
+  text-align: center;
+}
+
+/* line 158, Style.scss */
+#linear h1, #radial h1, footer h3 {
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+
+/* line 163, Style.scss */
+header h2 {
+  font-size: 1.2em;
+}
+
+/* line 167, Style.scss */
+footer {
+  width: 95%;
+  height: 14%;
+  border: 2px solid grey;
+  margin: 2% auto;
+  text-align: center;
+}
+/* line 175, Style.scss */
+footer ul {
+  list-style: none;
+  margin: 2% auto;
+  padding: 0;
+}
+/* line 181, Style.scss */
+footer a {
+  text-decoration: none;
+  color: grey;
+}

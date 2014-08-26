@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Fakebook</title>
+	<link rel="stylesheet" type="text/css" href="./css/Styles4.css"
+	</head>
+	<body>
+		<form>
+			<div id="divContainer">		
+					<div id="divRegistration">
+						<span id="registration">Registration</span><br>
+						<span>It is a safe and it will always be!</span>
+					</div>		
+				<div id="divLeft">
+					<fieldset id="fieldset">
+					<legend>None-Important Information</legend>
+						<div id="divLeftFrame">
+							<input id="textField1" type="text" name="firstName" placeholder="First Name"/>
+							<input id="textField1" type="text" name="lastName" placeholder="Last Name"/><br>
+							<input id="textField1" type="text" name="email" placeholder="Your Email" required title="E-mail format: name+@domain name Example: 
+							JohnSmith@gmail.com" pattern="[A-Za-z.%-_]+@[A-Za-z.-]+\.[A-Za-z]{2,4}"/>
+							<input id="textField1" type="text" name="phoneNumber" placeholder="Phone number" required title="Phone format: country code + phone number 
+							Example: +359 111222333" pattern="[\+]\d{3}[\s]\d{9}"/><br>
+							<input id="textField1" type="text" name="password" placeholder="Your password"/>
+							<input id="textField1" type="url" name="website" placeholder="Website"><br>
+							<div id="divBithday">
+								<legend for="birthday">Birtday</legend>
+								<input id="datetime"  type="datetime-local" name="birthday"/>
+							</div><br>
+							<div id="divRadioBtn">
+								<input type="radio" name="gender"/> Female
+								<input type="radio" name="gender"/> Male
+								<input type="radio" name="gender"/> Other<br>
+							</div>
+						</div>	
+					</fieldset>
+					<div id="divLeftBtn">
+						<input id="leftBtn" type="reset" name="clear" value="Clear Form"/>
+					</div>
+				</div>
+				<div id="divRight">
+					<fieldset id="fieldset">					
+						<legend>Important Information *required</legend>
+							<div id="divRightFrame">
+								<select id="textField1" required="required">
+									<option value="" selected="selected">Country</option>
+									<option>Bulgaria</option>
+									<option>Others</option>
+								</select>	
+								<input id="textField1" type="text" name="village" placeholder="Village" required="required"/>
+								<input id="textField1" type="text" name="district" placeholder="District" required="required"/><br>
+								<input id="textField1" type="text" name="street" placeholder="Street" required="required"/>	
+								<input id="textField2"type="text" name="number" placeholder="Nr" required="required"/>	
+								<input id="textField2"type="text" name="floor" placeholder="Ap Nr" required="required"/>	
+								<input id="textField2" type="text" name="village" placeholder="Village" required="required"/>
+								<div id="divAdditions1">
+									<legend  for="doorColor" required="required">Door Color</legend>
+									<input id="textField1" type="color" name="color" required="required"/>
+									<input id="textField1" type="text" name="waterMeter" placeholder="Water meter Nr" required="required"/>
+									<select id="textField1" required="required">
+										<option value="" selected="pSize">Aunt Panties Size</option>
+										<option>48</option>
+										<option>52</option>
+										<option>54</option>
+										<option>56</option>
+										<option>large</option>
+										<option>Extra large</option>
+									</select>
+								</div>
+								<div id="divAdditions2" >
+									<legend for="additionalInfo">More Personal Information</legend>
+									<textarea id="textArea" type="textarea" placeholder="Give Us More Information!!!" required="required"></textarea>
+								</div>
+							</div>
+						</fieldset>
+						<div id="divRightBtn">						
+							<input id="rightBtn" type="submit" name="register" value="Register"/>	
+						</div>							
+				</div>					
+			</div>		
+		</form>
+	</body>
+</html>

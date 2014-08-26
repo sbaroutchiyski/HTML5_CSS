@@ -1,0 +1,97 @@
+table,th,td
+{	
+	border:1px solid black;
+	font-family:"calibri"
+	vertical-align:middle;
+	text-align:center;
+}
+button
+{
+	color:blue;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:5px;
+	border:1px solid gray;
+	background:linear-gradient(rgb(225,225,225),rgb(137,137,137));
+}
+button:hover
+{
+  color:cyan;
+  background:rgb(54,54,54);
+  cursor:pointer;
+  border:2px inset cyan;
+}
+th button
+{
+	width:438px;
+	height:110px;
+	font-size:30px;			
+}
+#head
+{
+	font-size:60px;
+	height:113px;
+}
+#google,#github
+{  
+	height:113px;
+	width:225px;
+}
+#google button,#github button
+{
+	height:110px;
+	width:210px
+}
+#fb,#gmail,#youtube,#numbers,#food
+{
+	height:113px;
+	width:108px;
+}
+#fb button,#gmail button,#youtube button,#numbers button, #food button
+{
+	height:108px;
+	width:96px;
+	
+}	
+#game
+{
+	height:113px;
+	width:226px;
+}
+#game button
+{
+	height:108px;
+	width:212px;
+}
+#beer
+{
+	height:113px;
+	width:341px;
+}
+#beer button
+{
+	height:108px;
+	width:330px;
+	text-align:right;
+	font-size:22px;
+}
+#wc
+{
+	height:113px;
+	width:108px;
+
+}
+#wc button
+{
+	height:108px;
+	width:92px;
+}
+#socialLife button, #sleep button
+{
+	height:50px;
+	width:90px
+}
+#secondTable,#secondTable td
+{
+	border:1px solid white;
+}

@@ -1,0 +1,99 @@
+
+body
+{
+	font-family:Calibri,sans-serif;
+	font-size:14px;
+}
+#container
+{
+	position:absolute;		
+	width:386px;
+	heigh:655px;
+	border-radius:4px;
+	background:url("../images/formBackground.jpg");
+	text-align:center;
+}
+div
+{
+	display:inline-block;
+	text-align:left;
+	position:relative;
+	width:352px;
+	height:39px;
+	border:1px solid rgb(162,176,185); 
+	border-radius:4px;
+	background:rgba(91,116,148,0.3);
+	padding-left:10px;
+	margin-bottom:2px;
+}
+h1
+{
+	margin-left:15px;
+	text-align:left;
+	font-size:1.2em;
+	font-weight:bold;
+	color:white;
+}
+#textAreaField
+{
+	height:102px;	
+}
+#cardType
+{
+	height:66px;
+}
+#button
+{
+	border-radius:20px;
+	border:0;
+	background:black;
+	color:white;
+	font-weight:bold;
+	height:27px;
+	width:90px;
+	margin:12px 0 18px 0;		
+}
+#radio,#radio2
+{
+	display:block;
+	top:15px;
+	left:6px;
+	border-radius:0;
+	border:none;
+	background:transparent;
+	height:26px;
+	width:100px;
+	float:left;
+	padding:5px 0 0 0;
+}
+#radio2
+{
+	width:115px;
+}
+input[type="text"]
+{
+	position:relative;
+	display:block;
+	left:105px;
+	top:-14px;
+	width:187px;
+	height:23px;
+	border-radius:2px;
+	text-indent:6px;
+}
+textarea
+{
+	position:relative;
+	display:block;
+	left:105px;
+	top:-9px;
+	width:187px;
+	height:82px;
+	border-radius:2px;
+}
+label
+{
+	position:relative;
+	display:block;
+	top:9px;
+}

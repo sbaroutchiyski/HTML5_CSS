@@ -1,0 +1,193 @@
+
+body,header,#left,#right,#up,nav,ul,li,a
+{
+	margin:0;
+	padding:0;
+	color:white;
+	text-shadow:0 2px 1px black;
+}
+body
+{
+	font-family:Calibri,sans-serif;
+	font-size:16px;
+	font-weight:bold;
+}
+header
+{
+	width:100%;
+	height:3.3cm;
+	background:rgb(35,68,101);
+	display:block;
+}
+#left
+{
+	width:27%;
+	height:3.3cm;
+	position:relative;
+	float:left;
+}
+#right
+{		
+	display:block;
+	width:72%;
+	height:3.3cm;	
+	position:relative;
+	float:left;
+}
+#up
+{	
+	box-sizing:border-box;
+	position:relative;
+	display:block;
+	height:75px;	
+}
+#up ul li
+{
+	margin:0px;
+	padding:8px;
+	list-style:none;
+	border-bottom:1px solid rgb(68,96,124);
+	background:rgb(35,68,101);
+	height:0.5cm;
+	width:9.2cm;
+	position:relative;
+	z-index:1;
+}
+#up ul li:hover,#user:hover
+{
+	background:rgb(255,156,0);
+}
+#up ul li
+{
+	display:none;
+}
+#up ul:hover li
+{
+	display:block;
+}
+#up ul a:first-child
+{
+	font-weight:bold;
+}
+#userHolder
+{
+	position:relative;
+	padding:0;
+	margin:0;
+	top:-24px;
+	left:480px;
+}
+#user
+{
+	position:relative;
+	border-radius:5px;
+	width:1.2cm;
+	height:0.5cm;
+	padding:8px;
+	margin:0;
+}
+#user a:hover
+{
+	text-decoration:underline;
+}
+nav
+{
+	box-sizing:border-box;
+}
+nav ul
+{
+	padding-right:1cm;
+	margin-right:30px;
+	position:relative;
+	float:right;
+}
+nav ul li
+{
+	margin:0px;
+	padding:8px;
+	list-style:none;
+	border-radius:5px;
+	background:rgb(35,68,101);
+	height:0.5cm;
+	position:relative;
+	left:-8px;
+	top:-50px;
+	float:left;		
+}
+nav ul li:hover
+{
+	background:rgb(76,160,219);
+}
+nav ul a,#up ul a
+{
+	position:relative;
+	color:white;
+	display:block;
+	text-decoration:none;	
+}
+nav ul ul
+{
+	position:absolute;
+	visibility:hidden;
+	top:85px;	
+}
+nav ul li:hover ul
+{
+	visibility:visible;
+}
+nav ul ul li
+{
+	border-radius:0;
+	border-bottom:1px solid rgb(68,96,124);
+}
+nav ul li:last-child,#up ul li:last-child
+{
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+}
+nav ul ul a,#up ul a
+{
+	font-weight:normal;	
+	width:9.2cm;
+}
+#arrow
+{
+	position:relative;
+	top:-1mm;
+	left:1mm;
+	width:2mm;
+	height:1mm;
+}
+#bell
+{
+	position:relative;
+	top:5px;
+	left:450px;
+}
+
+#searchHolder
+{
+	position:relative;
+	top:-70px;
+	left:540px;
+}
+#search
+{
+	width:7.8cm;
+	height:0.9cm;
+	border-radius:5px;
+}
+#magnifierImg
+{
+	position:relative;
+	width:0.9cm;
+	height:0.9cm;
+	top:12px;
+	left:-40px;
+}
+#bellImg
+{
+	position:relative;
+	top:12px;
+	left:3px;
+}

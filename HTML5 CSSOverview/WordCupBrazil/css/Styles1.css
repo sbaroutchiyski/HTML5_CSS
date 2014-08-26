@@ -1,0 +1,192 @@
+
+body
+{	
+	font-family:Calibri;
+}
+h1
+{
+	font-size:24px;
+	margin:0;
+	padding:0;
+}
+#divContainer
+{
+	position:absolute;
+	width:1000px;
+	height:363px;
+	background:rgb(0,146,62);
+}
+table
+{			
+	margin:15px 0 0 15px;
+	border-radius:12px;
+	border-spacing:0px;				
+	background:white;				
+	width:969px;
+	height:333px;				
+}
+td
+{
+	font-size:16px;
+}
+table,tr,th,td
+{
+	border:1px solid black;
+}
+#thHeader
+{
+	background-color:rgb(248,199,17);
+}
+td,th,tr
+{
+	height:48px;
+	margin:0;
+	padding:0;
+}
+td:nth-child(1),td:nth-child(5),th:nth-child(1)
+{
+	text-align:right;
+	padding:0 9px 0 9px;
+}
+td:nth-child(2),td:nth-child(4),td:nth-child(6),td:nth-child(8),
+th:nth-child(2),th:nth-child(4),th:nth-child(5)
+{
+	text-align:center;
+}
+td:nth-child(3),td:nth-child(7),th:nth-child(3)
+{
+	text-align:left;
+	padding:0 9px 0 9px;
+}
+tr:nth-child(odd)
+{
+	background-color:rgb(200,200,200);
+}
+#top-left
+{
+	border-radius:12px 0 0 0;
+}
+#bottom-left
+{
+	border-radius:0 0 0 12px;
+}
+#top-right
+{
+	border-radius:0 12px 0 0;
+}
+#bottom-right
+{
+	border-radius:0 0 12px 0;
+}
+#result,#group
+{
+	width:95px;
+}
+#country
+{
+	width:167px;
+}
+#betCountry1
+{
+	width:143px;
+}
+#betResult
+{
+	width:107px;
+}
+#betCountry2
+{
+	width:137px;
+}
+#betBtnArea
+{
+	width:57px;
+}
+#resultRed,#resultGreen
+{
+	height:36px;
+	width:36px;
+	margin:0;
+	padding:0;
+}
+#resultRed
+{
+	color:red;
+}
+#resultGreen
+{
+	color:green;
+}
+#imgFL,#imgSL,#imgTL,#imgFrL,#imgFtL
+{			
+	float:right;
+	margin:5px 0 0 6px;
+	width:24px;
+	height:18px;
+}
+#imgFL
+{
+	background-image:url("../images/Usa_flag.jpg");
+}
+#imgSL
+{
+	background-image:url("../images/Portugal_flag.jpg");
+}
+#imgTL
+{
+	background-image:url("../images/Korea_flag.jpg");
+}
+#imgFrL
+{
+	background-image:url("../images/Brazil_flag.jpg");
+}
+#imgFtL
+{
+	background-image:url("../images/Algeria_flag.jpg");
+}
+#imgFR,#imgSR,#imgTR,#imgFrR,#imgFtR
+{
+	
+	float:left;
+	margin:5px 6px 0 0;
+	width:24px;
+	height:18px;
+}
+#imgFR
+{
+	background-image:url("../images/Germany_flag.jpg");
+}
+#imgSR
+{
+	background-image:url("../images/Ghana_flag.jpg");
+}
+#imgTR
+{
+	background-image:url("../images/Belgium_flag.jpg");
+}
+#imgFrR
+{
+	background-image:url("../images/Nigeria_flag.jpg");
+}
+#imgFtR
+{
+	background-image:url("../images/Russia_flag.jpg");
+}
+.imageRed
+{
+	background:url("../images/Button_red_small.png");
+	width:36px;
+	height:36px;
+	border:none;
+}
+.imageGreen
+{
+	background:url("../images/Button_green_small.png");
+	width:36px;
+	height:36px;
+	border:none;
+}
+.imageGreen:hover
+{
+	background:url("../images/Button_green_small_tr.png");
+}

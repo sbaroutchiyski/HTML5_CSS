@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript Worship</title>
+	<style type="text/css">
+		body
+		{
+			font-family:'verdana';
+		}
+
+		canvas
+		{
+			border:3px solid red;
+			border-style:dotted;
+			font-family:arial;
+		}
+	</style>		
+	</head>
+	<body>
+		<canvas id="drawing" width="247px" height="267px">
+
+		</canvas>
+		<script>
+		
+			var c = document.getElementById("drawing");
+			var ctx = c.getContext("2d");
+			var txt= c.getContext("2d");
+			var logo= c.getContext("2d");
+			ctx.fillStyle = "rgb(241,218,78)";
+			ctx.fillRect(53,84,133,133);
+			txt.font = "26px verdana";
+			txt.fillStyle="rgb(0,0,0)";
+			txt.fillText("I love JavaScript",15,53);
+			logo.fillStyle="rgb(0,0,0)";
+		    logo.font="84px Neutra Text";
+			logo.fillText("JS",89,202);			
+		</script>
+	</body>
+</html>

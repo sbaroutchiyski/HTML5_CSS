@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Styling a HTML Form</title>
+		<link rel="stylesheet" type="text/css" href="./css/Styles3.css"/>
+	</head>
+	<body>
+		<form id="container">
+			<h1>Step 1: Your details</h1>
+			<div>
+				<label for="text">Name</label>
+				<input type="text" name="text" placeholder="First and last name"/>
+			</div>
+			<div>
+				<label for="text">Email</label>
+				<input type="text" name="text" placeholder="example@domain.com"/>
+			</div>
+			<div>
+				<label for="text">Phone</label>
+				<input type="text" name="text" placeholder="eg. +447500000000"/>
+			</div>
+			<h1>Step 1: Delivery address</h1>
+			<div id="textAreaField">
+				<label for="textArea">Address</label>
+				<textarea name="textArea"></textarea>
+			</div>
+			<div>
+				<label for="text">Post code</label>
+				<input type="text" name="text"/>
+			</div>
+			<div>
+				<label for="text">Country</label>
+				<input type="text" name="text"/>
+			</div>
+			<h1>Step 1: Card details</h1>
+			<div id="cardType">
+				<label for="radioGroup">Card type</label>
+				<div id="radio">
+				<input type="radio" name="radioGroup"><img src="./images/visa.jpg" alt="visa img"/>VISA
+				</div>
+				<div id="radio">
+				<input type="radio" name="radioGroup"/><img src="./images/amex.jpg" alt="am ex img"/>AmEx
+				</div>
+				<div id="radio2">
+				<input type="radio" name="radioGroup"/><img src="./images/mastercard.jpg" alt="mastercard"/>Mastercard
+				</div>
+			</div>
+			<div>
+				<label for="text">Card number</label>
+				<input type="text" name="text"/>
+			</div>
+			<div>
+				<label for="text">Security code</label>
+				<input type="text" name="text"/>
+			</div>
+			<div>
+				<label for="text">Name on card</label>
+				<input type="text" name="text" placeholder="exact name as on the card"/>
+			</div>
+			<input id="button" type="submit" value="BUY IT!"/>
+		</form>
+	</body>
+</html>

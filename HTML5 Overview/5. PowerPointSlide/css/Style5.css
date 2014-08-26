@@ -1,0 +1,66 @@
+body
+{
+	background-image:url("../images/Background.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;	
+}
+#content
+{
+	position:relative;
+	top:50px; 
+	left:20px;
+}
+#header
+{
+	position:relative;
+	border:1px solid rgb(116,112,101);
+	background-color:rgba(32,32,30,0.7);
+	width:85%;
+	height:10%;
+	left:45px;
+}
+h1
+{
+	color:rgb(243,190,96);
+	text-indent:5px;	
+	font-size:32px;
+	font-weight:bold;
+	font-family:Calibri,sans-serif;	
+	padding:0px;
+	margin:0px;
+}
+p
+{
+	color:rgb(251,238,201);
+	text-indent:5px;
+	font-size:21px;
+	font-weight:bold;
+	font-family:Calibri,sans-serif;		
+	padding:0px;
+	margin:0px;
+}
+ul
+{
+	list-style-type:none;
+	color:rgb(255,255,255);
+	text-indent:10px;
+	font-size:32px;
+	font-weight:normal;
+	font-family:Calibri,sans-serif;
+	margin:5px;
+	padding:10px;
+}
+li
+{
+	background-image:url("../images/bullet_square.png");
+	background-repeat:no-repeat;
+	background-position:0px;
+	padding-left:5px;
+}
+span
+{
+	color:rgb(243,205,96);
+	font-size:30px;
+	font-weight:bold;
+	font-family:Calibri,sans-serif;
+}

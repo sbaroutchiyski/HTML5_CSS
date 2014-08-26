@@ -1,0 +1,111 @@
+body
+{
+	font-family:"Calibri",sans-serif;
+}
+h1
+{		
+	color:rgb(35,68,101);
+}
+p,h1
+{
+	text-indent:10px;
+}
+#form1
+{		
+	width:662px;
+	height:415px;
+	background:rgb(238,238,238);
+}
+#container
+{
+	width:660px;
+	height:320px;
+}
+#register
+{			
+	position:relative;
+	margin-left:15px;
+	margin-top:15px;
+	width:305px;
+	height:287px;
+	float:left;
+}
+#login
+{
+	background:rgb(35,68,101);
+	position:relative;
+	margin-right:15px;
+	margin-top:15px;
+	width:305px;
+	height:287px;
+	float:right;
+}
+#headR
+{
+	margin:10px;
+	font-size:18px;
+	font-weight:bold;
+}
+#spanR
+{
+	font-size:18px;
+	font-weight:bold;
+	color:rgb(35,68,101);		
+}
+#textLabel
+{
+	width:270px;
+	height:30px;
+	margin:10px;
+}
+#registerBtn
+{
+	border:2px solid rgb(35,68,101);
+	color:rgb(35,68,101);
+	font-size:16px;
+	font-weight:bold;
+	margin-top:10px;
+	margin-right:20px;
+	width:140px;
+	height:30px;
+	float:right;
+}
+#headL
+{
+	color:white;
+	margin:10px;
+	font-size:18px;
+	font-weight:bold;
+}
+#checkBox
+{
+	margin-top:5px;
+	margin-left:10px;
+}
+#remember
+{
+	vertical-align:top;
+	font-size:14px;
+}
+#loginBtn
+{
+	border:2px solid rgb(225,144,14);
+	background:transparent;
+	font-size:16px;
+	font-weight:bold;
+	margin-top:10px;
+	margin-right:20px;
+	width:115px;
+	height:30px;
+	float:right;
+}
+#hLink,#loginBtn,#remember
+{
+	color:white;
+}
+#hLinkPosition
+{
+	position:relative;
+	top:25px;
+	left:60%;
+}

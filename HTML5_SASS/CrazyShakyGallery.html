@@ -1,0 +1,180 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Crazy Shaky Gallery</title>
+		<style>
+			body
+			{
+				margin:0;
+				padding:0;
+				background: rgb(186,186,186);
+			}
+			#container
+			{
+				width:630px;
+				height:500px;
+				border: 2px solid rgb(146,146,146);
+				border-radius:5px;
+				box-shadow:2px 2px 1px rgb(128,128,128);
+				text-align:center;
+				margin:20px;
+			}	
+			input[type="submit"]
+			{
+				position:absolute;			
+				width:150px;
+				height:114px;
+				border:none;
+				background-size:cover;
+				background-repeat:no-repeat;	
+				-webkit-transition: width 3s, height 3s, -webkit-transform 2s;	
+				transition: width 3s height 3s transform 2s;
+			}
+			@-webkit-keyframes myFirst
+			{
+				0%{-webkit-transform:rotate(0deg);}
+				5%{-webkit-transform:rotate(10deg);}
+				10%{-webkit-transform:rotate(-10deg);}
+				15%{-webkit-transform:rotate(0deg);}
+				100%{-webkit-transform:rotate(0deg);}
+			}
+			@keyframes myFirst
+			{
+				0%{transform:rotate(0deg);}
+				5%{transform:rotate(10deg);}
+				10%{transform:rotate(-10deg);}
+				15%{transform:rotate(0deg);}
+				100%{-webkit-transform:rotate(0deg);}
+			}
+			@-webkit-keyframes mySecond
+			{
+				0%{ -webkit-transform:rotate(0deg);}		
+				100%{ -webkit-transform:rotate(360deg);}
+			}
+			@keyframes mySecond
+			{
+				0%{transform:rotate(0deg);}
+				100%{ transform:rotate(360deg);}
+			}
+			input[type="submit"]:hover
+			{			
+				-webkit-animation:myFirst 2s;
+				animation:myFirst 2s;				
+			}
+			input[type="submit"]:focus
+			{
+				width:750px;
+				height:570px;
+				-webkit-animation:mySecond 3s;
+				animation:mySecond 3s;		
+			}	
+			#car1
+			{			
+				background:url("./images/car1.jpg");		
+				top:42px;
+				left:110px;
+				z-index:12;
+			}
+			#car2
+			{			
+				background:url("./images/car2.jpg");	
+				top:42px;
+				left:261px;
+				z-index:11;
+			}
+			#car3
+			{			
+				background:url("./images/car3.jpg");	
+				top:42px;
+				left:412px;
+				z-index:10;
+			}
+			#car4
+			{			
+				background:url("./images/car4.jpg");	
+				top:157px;
+				left:110px;
+				z-index:9;
+			}
+			#car5
+			{			
+				background:url("./images/car5.jpg");	
+				top:157px;
+				left:261px;
+				z-index:8;
+			}
+			#car6
+			{			
+				background:url("./images/car6.jpg");	
+				top:157px;
+				left:412px;
+				z-index:7;
+			}
+			#car7
+			{			
+				background:url("./images/car7.jpg");	
+				top:272px;
+				left:110px;
+				z-index:6;
+			}
+			#car8
+			{			
+				background:url("./images/car8.jpg");	
+				top:272px;
+				left:261px;
+				z-index:5;
+			}
+			#car9
+			{			
+				background:url("./images/car9.jpg");	
+				top:272px;
+				left:412px;
+				z-index:4;
+			}
+			#car10
+			{			
+				background:url("./images/car10.jpg");	
+				top:387px;
+				left:110px;
+				z-index:3;
+			}
+			#car11
+			{			
+				background:url("./images/car11.jpg");	
+				top:387px;
+				left:261px;
+				z-index:2;
+			}
+			#car12
+			{			
+				background:url("./images/car12.jpg");	
+				top:387px;
+				left:412px;
+				z-index:1;
+			}
+			#car1,#car2,#car3,#car4,#car5,#car6,#car7,#car8,#car9,#car10,#car11,#car12
+			{
+				background-size:cover;
+				background-repeat:no-repeat;
+			}
+		</style>
+	</head>
+<body>
+<form id="container">
+
+		<input type="submit" value="" id="car1"></input>
+		<input type="submit" value="" id="car2"></input>
+		<input type="submit" value="" id="car3"></input>
+		<input type="submit" value="" id="car4"></input>
+		<input type="submit" value="" id="car5"></input>
+		<input type="submit" value="" id="car6"></input>
+		<input type="submit" value="" id="car7"></input>
+		<input type="submit" value="" id="car8"></input>
+		<input type="submit" value="" id="car9"></input>
+		<input type="submit" value="" id="car10"></input>
+		<input type="submit" value="" id="car11"></input>
+		<input type="submit" value="" id="car12"></input>
+
+</form>
+</body>
+</html>

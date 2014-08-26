@@ -1,0 +1,32 @@
+#form
+{
+	width:500px;
+	height:300px;
+}
+#container
+{
+	width:360px;
+	height:300px;
+	border:0px;
+}
+#largeLogo
+{
+	width:300px;
+	height:100px;
+}
+#logo
+{
+	width:30px;
+	height:30px;
+	vertical-align:middle;				
+}
+#divFields
+{
+	height:40px;
+	font-family:"Calibri";
+}
+#textField
+{
+	width:120px;
+	height:20px;
+}
